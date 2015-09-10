@@ -1,4 +1,4 @@
-# mongoose-monky-demo
+# Mongoose Monky Demo
 Example of Mocha tests of Mongoose using Monky Factories
 
 This is a simple demo that helps illustrate patterns for testing
