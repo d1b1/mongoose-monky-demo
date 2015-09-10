@@ -1,0 +1,41 @@
+{
+  "name": "mongoose-monky-demo",
+  "version": "0.0.1",
+  "description": "Demo app for testing Mongoose with Mocha and Monky.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "coverage": "istanbul cover _mocha test/test-*.js -- -R spec",
+    "coveralls": "npm run-script coverage && node node_modules/.bin/coveralls < coverage/lcov.info"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/d1b1/mongoose-monky-demo.git"
+  },
+  "keywords": [
+    "monky",
+    "mongoose",
+    "mocha"
+  ],
+  "author": "Stephan Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/d1b1/mongoose-monky-demo/issues"
+  },
+  "homepage": "https://github.com/d1b1/mongoose-monky-demo",
+  "dependencies": {
+    "mocha": "^2.3.2",
+    "mongoose": "^4.1.6",
+    "should": "^7.1.0"
+  },
+  "devDependencies": {
+    "async": "^1.4.2",
+    "coveralls": "^2.11.4",
+    "istanbul": "^0.3.19",
+    "moment": "^2.10.6",
+    "monky": "^0.6.7",
+    "should": "^7.1.0",
+    "supertest": "^1.1.0",
+    "underscore": "^1.8.3"
+  }
+}
